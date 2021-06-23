@@ -24,6 +24,8 @@ body {
     height: .4em;
     width: 15em;
     margin: 0 auto;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 
 .large-div {
@@ -35,11 +37,13 @@ body {
     /*width: 100%;
     height: 100%;*/
     background-size: cover;
-    height: 45em;
+    height: 40em;
 }
 .main-header {
     color: white;
     font-size: 5rem;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 .secondary-header {
     color: var(--darkGray);
@@ -53,6 +57,8 @@ h2 {
 
 .orange-p {
     color: var(--orange);
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 }
 
 .modal-content {
