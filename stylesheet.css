@@ -8,6 +8,9 @@ body {
     text-align: center;
 }
 
+.accent-div {
+    background-color: orange;
+}
 .main-header {
     color: white;
 }
@@ -17,4 +20,15 @@ body {
 
 h2 {
     color: var(--orange);
+}
+
+.orange-p {
+    color: var(--orange);
+}
+
+form {
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
 }
