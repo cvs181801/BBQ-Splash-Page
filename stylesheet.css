@@ -23,7 +23,7 @@ body {
     opacity: 1;
     height: .4em;
     width: 15em;
-    justify-content: center;
+    align-content: center;
 }
 
 .large-div {
@@ -39,14 +39,16 @@ body {
 }
 .main-header {
     color: white;
+    font-size: 5rem;
 }
 .secondary-header {
     color: var(--darkGray);
-    text-transform: uppercase;
 }
 
 h2 {
     color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: .2;
 }
 
 .orange-p {
