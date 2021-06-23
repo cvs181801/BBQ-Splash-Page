@@ -41,7 +41,7 @@ body {
 }
 .main-header {
     color: white;
-    font-size: 5rem;
+    font-size: 3rem;
     filter: blur(0px);
     -webkit-filter: blur(0px);
 }
