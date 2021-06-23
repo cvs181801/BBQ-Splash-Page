@@ -1,6 +1,7 @@
 :root {
     --orange: #F18119;
-    --medGray: #818181;
+    --lightGray: #818181;
+    --medGray: #5A5A5A;
     --darkGray: #404040;
     --ff-primary: 'Source Sans Pro', sans-serif;
 }
@@ -9,6 +10,7 @@ body {
     margin: 0 auto;
     align-content: center;
     text-align: center;
+    color: var(--medGray);
     font-family: var(--ff-primary);
 }
 
@@ -26,8 +28,8 @@ body {
     opacity: 1;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
-    width: 100%;
-    height: 100%;
+    /*width: 100%;
+    height: 100%;*/
     background-size: contain;
 }
 .main-header {
