@@ -31,9 +31,9 @@ body {
 .large-div {
     background: url(/Users/casvalkyriespicer/Documents/GitHub/BBQ-Splash-Page/images/BBQbig.jpg);
     /*background: #000000 0% 0% no-repeat padding-box;*/
-    opacity: 1;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
+    opacity: .8;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     /*width: 100%;
     height: 100%;*/
     background-size: cover;
@@ -59,6 +59,7 @@ h2 {
     color: var(--orange);
     filter: blur(0px);
     -webkit-filter: blur(0px);
+    margin-bottom: 2em;
 }
 
 .modal-content {
