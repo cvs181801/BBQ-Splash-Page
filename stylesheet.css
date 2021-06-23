@@ -27,8 +27,8 @@ body {
 }
 
 .large-div {
+    background: url(/Users/casvalkyriespicer/Documents/GitHub/BBQ-Splash-Page/images/BBQbig.jpg);
     background: #000000 0% 0% no-repeat padding-box;
-    background: url(/Users/casvalkyriespicer/Documents/GitHub/BBQ-Splash-Page/images/bbq.jpg) 0% 0% no-repeat padding-box;
     opacity: 1;
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
@@ -40,7 +40,7 @@ body {
     color: white;
 }
 .secondary-header {
-    color: rgb(1, 12, 17);
+    color: var(--darkGray);
     text-transform: uppercase;
 }
 
