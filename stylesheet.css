@@ -2,3 +2,18 @@
     --orange: orange;
 }
 
+body {
+    margin: 0 auto;
+    align-content: center;
+}
+
+.main-header {
+    color: white;
+}
+.secondary-header {
+    color: rgb(1, 12, 17)
+}
+
+h2 {
+    color: var(--orange);
+}
