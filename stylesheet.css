@@ -1,15 +1,22 @@
 :root {
-    --orange: orange;
+    --orange: #F18119;
+    --medGray: #818181;
+    --darkGray: #404040;
+    --ff-primary: 'Source Sans Pro', sans-serif;
 }
 
 body {
     margin: 0 auto;
     align-content: center;
     text-align: center;
+    font-family: var(--ff-primary);
 }
 
 .accent-div {
-    background: linear-gradient(#FF713B, #FFA51D);
+    background: transparent linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
+    opacity: 1;
+    height: .3em;
+    width: 30em;
 }
 .main-header {
     color: white;
@@ -34,5 +41,6 @@ h2 {
 }
 
 .submit-button {
-    background: linear-gradient(#FF713B, #FFA51D);
+    background: transparent linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
+    opacity: 1;
 }
