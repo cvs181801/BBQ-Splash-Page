@@ -40,7 +40,8 @@ body {
     color: white;
 }
 .secondary-header {
-    color: rgb(1, 12, 17)
+    color: rgb(1, 12, 17);
+    text-transform: uppercase;
 }
 
 h2 {
