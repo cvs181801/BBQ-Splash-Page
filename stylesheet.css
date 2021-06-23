@@ -19,11 +19,11 @@ body {
 }
 
 .accent-div {
-    background: transparent linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
+    background: transparent linear-gradient(270deg, #FF713B 0%, #FF895D, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
     opacity: 1;
     height: .4em;
     width: 15em;
-    align-content: center;
+    margin: 0 auto;
 }
 
 .large-div {
@@ -63,7 +63,7 @@ h2 {
 }
 
 .submit-button {
-    background: transparent linear-gradient(270deg, #FF713B 0%, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
+    background: transparent linear-gradient(270deg, #FF713B 0%, #FF895D, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
     opacity: 1;
 }
 
