@@ -10,6 +10,7 @@ html {
     height: 100%;
 }
 
+
 body {
     margin: 0 auto;
     align-content: center;
@@ -17,6 +18,7 @@ body {
     color: var(--medGray);
     font-family: var(--ff-primary);
     line-height: 1.5;
+    box-sizing: border-box;
 }
 
 .accent-div {
@@ -44,8 +46,7 @@ body {
 .main-header {
     color: white;
     font-size: 3rem;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
+
 }
 
 .secondary-header {
@@ -60,8 +61,6 @@ h2 {
 
 .orange-p {
     color: var(--orange);
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
     margin-bottom: 2em;
     text-transform: uppercase;
     font-weight: 700;
@@ -83,6 +82,11 @@ h2 {
 
 .thin-text {
     font-weight: 300;
+}
+
+.thin-text-2 {
+    font-size: 0.625rem;
+    letter-spacing: .1rem;
 }
 
 @media (min-width: 600px) {
