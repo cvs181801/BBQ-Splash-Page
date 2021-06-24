@@ -46,7 +46,6 @@ body {
 .main-header {
     color: white;
     font-size: 3rem;
-    transform: translate(-50%,-50%);
 }
 
 .secondary-header {
