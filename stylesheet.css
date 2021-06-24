@@ -38,7 +38,6 @@ body {
     height: 100%;
     background-size: cover;
     height: 40em;
-    border: 2px solid magenta;
     margin: 0 auto;
 
 }
@@ -54,6 +53,7 @@ body {
 
 .secondary-header {
     color: var(--darkGray);
+    margin-top: 4em;
 }
 
 h2 {
