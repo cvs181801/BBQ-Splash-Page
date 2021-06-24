@@ -29,6 +29,7 @@ body {
     margin: 0 auto;
     filter: blur(0px);
     -webkit-filter: blur(0px);
+    z-index: 2;
 }
 
 .large-div {
@@ -39,6 +40,7 @@ body {
     height: 100%;
     background-size: cover;
     height: 40em;
+    border: 2px solid magenta;
 }
 
 .main-header {
