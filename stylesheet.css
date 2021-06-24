@@ -27,9 +27,7 @@ body {
     height: .4em;
     width: 15em;
     margin: 0 auto;
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-    z-index: 2;
+    
 }
 
 .large-div {
@@ -42,14 +40,16 @@ body {
     height: 40em;
     border: 2px solid magenta;
     margin: 0 auto;
-    
+
 }
 
 .main-header {
     color: white;
     font-size: 3rem;
     backdrop-filter: blur(3px);
-    /*-webkit-backdrop-filter: blur(3px);*/
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+    /*z-index: 2;*/
 }
 
 .secondary-header {
