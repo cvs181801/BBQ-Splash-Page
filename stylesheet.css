@@ -64,6 +64,7 @@ h2 {
     -webkit-filter: blur(0px);
     margin-bottom: 2em;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .modal-content {
