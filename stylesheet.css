@@ -32,11 +32,9 @@ body {
 }
 
 .large-div {
-    background: #000000 0% 0% no-repeat padding-box;
+    background:rgba(0,0,0,.2) 0% 0% no-repeat padding-box;
     background: url(/Users/casvalkyriespicer/Documents/GitHub/BBQ-Splash-Page/images/BBQbig.jpg);
     opacity: .8;
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -46,6 +44,8 @@ body {
 .main-header {
     color: white;
     font-size: 3rem;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .secondary-header {
