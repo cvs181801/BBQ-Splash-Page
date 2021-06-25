@@ -89,6 +89,11 @@ h2 {
     flex-direction: row;
 }
 
+form {
+    display: flex;
+    flex-direction: row;
+}
+
 .submit-button {
     background: transparent linear-gradient(270deg, #FF713B 0%, #FF895D, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
     opacity: 1;
