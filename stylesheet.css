@@ -91,7 +91,7 @@ h2 {
 
 form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .submit-button {
