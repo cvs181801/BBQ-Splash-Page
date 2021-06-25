@@ -37,6 +37,7 @@ body {
 .large-div {
     background:rgba(0,0,0,.2) 0% 0% no-repeat padding-box;
     background-image: url(/Users/casvalkyriespicer/Documents/GitHub/BBQ-Splash-Page/images/BBQbig.jpg);
+    background-blend-mode: multiply;
     opacity: .8;
     width: 100%;
     min-height: 50vh;
