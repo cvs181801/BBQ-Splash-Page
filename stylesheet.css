@@ -46,13 +46,18 @@ body {
 
 }
 
+.smaller-div {
+    display: flex;
+    flex-direction: column;
+}
+
 .main-header {
     color: white;
     font-size: 3rem;
     backdrop-filter: blur(3px);
     filter: blur(0px);
     -webkit-filter: blur(0px);
-    /*z-index: 2;*/
+    margin-top: 3em;
 }
 
 .secondary-header {
@@ -80,6 +85,8 @@ h2 {
     text-align: center;
     padding: 20px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .submit-button {
