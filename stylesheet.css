@@ -112,7 +112,11 @@ input {
     text-align: center;
     border: 1px solid var(--lightGray);
     font-family: inherit;
+    transition: transform 250ms;
+}
 
+input:focus {
+    transform: scale(1.1);
 }
 
 .submit-button {
@@ -128,7 +132,8 @@ input {
     transition: transform 250ms;
 }
 
-.submit-button:hover {
+.submit-button:hover,
+.submit-botton:focus {
     color: white;
     transform: scale(1.1);
 }
