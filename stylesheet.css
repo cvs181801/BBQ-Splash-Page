@@ -130,6 +130,7 @@ input {
 
 .submit-button:hover {
     color: white;
+    transform: scale(1.1);
 }
 
 .thin-text {
