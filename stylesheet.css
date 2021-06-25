@@ -123,6 +123,8 @@ input {
     color: var(--darkGray);
     cursor: pointer;
     font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
 .thin-text {
