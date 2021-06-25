@@ -111,6 +111,7 @@ input {
     margin-bottom: 1em;
     text-align: center;
     border: 1px solid var(--lightGray);
+    font-family: inherit;
 
 }
 
@@ -119,6 +120,9 @@ input {
     opacity: 1;
     border-radius: 7px;
     width: 100%;
+    color: var(--darkGray);
+    cursor: pointer;
+    font-family: inherit;
 }
 
 .thin-text {
