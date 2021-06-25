@@ -125,6 +125,7 @@ input {
     font-family: inherit;
     text-transform: uppercase;
     letter-spacing: .1rem;
+    transition: 500ms;
 }
 
 .submit-button:hover {
