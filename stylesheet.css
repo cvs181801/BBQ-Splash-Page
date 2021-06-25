@@ -93,6 +93,7 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
 
 .submit-button {
     background: transparent linear-gradient(270deg, #FF713B 0%, #FF895D, #FFA51D 100%) 0% 0% no-repeat padding-box; /*linear-gradient(#FF713B, #FFA51D);*/
