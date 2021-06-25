@@ -127,6 +127,10 @@ input {
     letter-spacing: .1rem;
 }
 
+.submit-button:hover {
+    color: white;
+}
+
 .thin-text {
     font-weight: 300;
     padding: 3em;
