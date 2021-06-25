@@ -86,7 +86,7 @@ h2 {
     padding: 20px;
     background-color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .submit-button {
