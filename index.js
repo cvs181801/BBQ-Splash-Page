@@ -7,5 +7,5 @@ emailCollectorForm.addEventListener("submit", e => {
     e.preventDefault();
     console.log("it worked!!");
     let ourFormData = new FormData(e.target);
-    console.log(ourFormData);
+    console.log(ourFormData.get("firstName"));
 })
