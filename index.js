@@ -9,7 +9,8 @@ emailCollectorForm.addEventListener("submit", e => {
     let ourFormData = new FormData(e.target);
     const userFirstname = ourFormData.get("name");
     const updatedHTML = `<h1 class="secondary-header">Congratulations, ${userFirstname}!</h1>
-           <h2> You're on your way to becoming a BBQ Master.</h2>`;
+           <h2> Your registration is complete. <br>
+           You're on your way to becoming a BBQ Master.</h2>`;
         let mainContent = document.getElementById("smaller-div");
         mainContent.innerHTML = updatedHTML;   
 })
