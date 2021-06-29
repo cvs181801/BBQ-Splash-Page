@@ -14,7 +14,7 @@ emailCollectorForm.addEventListener("submit", e => {
            <h2> Your registration is complete. <br>
            <br>
            You're on your way to becoming a BBQ Master.</h2>
-           <p class="fine-print">You will get weekly BBQ tips sent to: ${userEmailAddress} and ${userPhoneNumber}.</p>`;
+           <p class="fine-print">You'll receive a webinar invitation link via email and text to: ${userEmailAddress} and ${userPhoneNumber}.</p>`;
         let mainContent = document.getElementById("smaller-div");
         mainContent.innerHTML = updatedHTML;   
 })
